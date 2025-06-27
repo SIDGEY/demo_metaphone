@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Double Metaphone Playground</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 2rem;
+        }
+        input {
+            padding: 0.5rem;
+            font-size: 1rem;
+            width: 300px;
+        }
+        pre {
+            margin-top: 1rem;
+            background: #f0f0f0;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Recherche phonétique (Double Metaphone)</h1>
+    <h2>Essaye : Gonzalez, Gonçalves, Dupont, Duboix, etc.</h2>
+
+    <input type="text" id="search" placeholder="Tape un mot" />
+    <pre id="result"></pre>
+
+    <script type="module" src="/src/index.ts"></script>
+</body>
+</html>
