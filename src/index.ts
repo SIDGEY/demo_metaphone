@@ -1,4 +1,4 @@
-import { doubleMetaphone, normalizeString, stem } from './metaphone';
+import { doubleMetaphone, normalizeString } from './metaphone';
 import { people } from './people';
 
 const input = document.getElementById('search') as HTMLInputElement;
